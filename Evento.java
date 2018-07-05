@@ -4,4 +4,8 @@ public class Evento{
     protected String local;
     protected String data;
     protected String horario;
+
+    public Evento(){
+        
+    }
 }
