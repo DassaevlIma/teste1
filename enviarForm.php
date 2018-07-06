@@ -8,7 +8,7 @@ if(isset($_POST['assunto'])) $assunto = $_POST['assunto'];
 if(isset($nome) && empty($nome)){
     
 $to = "dassaevlim@gmail.com";
-$subject = "NOVO EMAIL - SITE TECHPROL";
+$subject = "NOVO EMAIL - SITE D-LIMA";
 $message = "<strong>Remetente: </strong> $email <br> <strong>Nome: </strong> $nome <br> <strong>Assunto: </strong> $assunto <br> <strong>Mensagem: </strong> $mensagem <br>";
 $header = "MIME-VEersion: 1.0 \n";
 $header .= "content-type: text/html; charset=iso-8859-1 \n";
